@@ -68,7 +68,7 @@ class vecteure3D (vecteure2D):
             return False
         
     def Norme(self):
-        return (((self.getX)**2+ (self.getY)**2 + (self.__Z)**2))**0.5
+        return (((self.getX())**2+ (self.getY())**2 + (self.__Z)**2))**0.5
 
 #main programme
 v1 = vecteure2D(6,8)
